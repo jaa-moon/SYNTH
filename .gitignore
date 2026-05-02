@@ -1,0 +1,98 @@
+# ──────────────────────────────────────────────
+#  Python
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+sdist/
+wheels/
+*.whl
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# ──────────────────────────────────────────────
+#  PyTorch / ML
+# ──────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.ckpt
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# EasyOCR model cache
+~/.EasyOCR/
+
+# HuggingFace cache
+*.cache/
+huggingface/
+
+# ──────────────────────────────────────────────
+#  Testing & Coverage
+# ──────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.nox/
+.tox/
+
+# ──────────────────────────────────────────────
+#  Type checking & Linting
+# ──────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ──────────────────────────────────────────────
+#  macOS
+# ──────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# ──────────────────────────────────────────────
+#  IDEs & Editors
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ──────────────────────────────────────────────
+#  Misc
+# ──────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+.envrc
